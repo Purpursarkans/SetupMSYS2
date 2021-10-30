@@ -26,4 +26,3 @@ Download
 if you see this error and are sure pacman is not open - **error: failed to synchronize all databases (failed to lock the database )**  
 check pacman in task manager and kill him, then delete - **"C:\msys64\var\lib\pacman\db.lck"**   
 **BUT**, dont delete this file if pacman is open
-
