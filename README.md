@@ -22,7 +22,7 @@ Download
 ## After Setup
 
 * $ pacman -Syu 
-* $ pacman -Syu mingw-w64-x86_64-toolchain git mingw-w64-x86_64-ninja mingw-w64-x86_64-cmake cmake mingw-w64-x86_64-boost git git mingw-w64-x86_64-ninja  
+* $ pacman -Syu mingw-w64-x86_64-toolchain git mingw-w64-x86_64-ninja mingw-w64-x86_64-cmake cmake mingw-w64-x86_64-boost  
 if you see this error and are sure pacman is not open - **error: failed to synchronize all databases (failed to lock the database )**  
 check pacman in task manager and kill him, then delete - **"C:\msys64\var\lib\pacman\db.lck"**   
 **BUT**, dont delete this file if pacman is open
